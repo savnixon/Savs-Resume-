@@ -1,12 +1,29 @@
 /*Place CSS styles here */
-.button{
+.button {
     background-color: #5622a8;
     color: #efefef;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.button:hover {
+    background-color: #d3d136;
+    border-color: #d3d136;
 }
 .button-small {
     background-color: #5622a8;
     color: #efefef;
-    
-
-
+    font-size: 12px;
+}
+.button:hover,
+.button:focus {
+    background-color: #d3d136;
+}
+.button:focus {
+    border: 1px solid #d3d136;
+}
+.button-small {
+    font-size: 12px;
 }
